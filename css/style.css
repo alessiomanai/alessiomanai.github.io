@@ -1,0 +1,144 @@
+.colonna {
+    
+    background-color: #1560BD;
+    width: 250px;
+    height: 100%;
+    float: left;
+    margin: 0;
+    padding:0;
+    margin-right: 20px;
+	position: fixed;
+	overflow-y: scroll;
+    
+}
+
+#pic {
+    
+    margin-left: 40px ;
+    margin-top: 20px ;
+    
+}
+
+.title {
+    
+    background-color: #1560BD;
+    width: 100%;
+    height: 40px;
+    font-family: "Arial";
+    color: white;
+
+}
+
+.titleP {
+    
+    
+    margin-left: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;  
+	font-weight: bold;
+
+}
+
+.linkColonna {
+    
+    background-color: #1560BD;
+    width: 100%;
+    height: 40px;
+    font-family: "Arial";
+    color: white;
+
+}
+
+.linkColonnaP {
+    
+    
+    margin-left: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;    
+}
+
+.linkColonna:hover {
+    
+    width: 100%;
+    height: 40px;
+    font-family: "Arial";
+    color: white;
+    background: #007FFF;
+    font-weight: bold;
+}
+
+
+.divLink{
+    margin-top: 20px;
+}
+
+.page {
+    
+    margin-left: 270px ;  /*20 + 250 della colonna*/
+    font-family: "Arial";
+    margin-right: 20px;
+
+}
+
+#eMailMe {
+    
+    font-size: 14px;
+    width: 125px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.citazioni {
+    
+    font-style: italic;
+}
+
+.codekey {
+    
+    font-style: monospace;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background: #0077b6;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #005f8a;
+    padding: 0.5rem;
+}
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    flex: 1;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #0077b6;
+    color: white;
+}
